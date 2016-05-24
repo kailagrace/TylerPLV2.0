@@ -1,0 +1,369 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+
+
+/*Tyler-specific patterns that will need to be swapped out*/
+//=======Fleshing out the within page examples =========//
+.example-page{
+  border: 1px solid #cfcfcf;
+  .example-page-content{padding:20px 20px 20px 20px;}
+
+  .example-page-header{
+    background-color: #00366b;
+    text-weight:500;
+    width:100%;
+    height:40px;
+    color:white;
+padding:10px 10px 10px 10px;
+  }
+  .example-page-footer{
+
+    background-color: #cfcfcf;
+    width:100%;
+    height:30px;
+    color:black;
+  padding:0px 10px 10px 10px;}
+}
+
+//=======Typography========//
+ h1{font-size: 24px;
+    font-weight:100;}
+h2{font-size:16px;}
+h3{
+      font-size:12px;
+       font-family: Gotham, Roboto, Helvetica, Sans-serif;
+       text-transform: uppercase;
+       font-weight:bold;
+                    }
+h4{font-size:12px;}
+
+
+h1, h2, h4, p, span, body{
+  font-family: Segoe UI, Roboto, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+
+                   .tyl-label{
+                               color:#999999 !important;
+                                  }
+                    .content-col-header{
+                                    color:#2f6326;
+                                    font-size:14px;
+                                    font-weight:bold;
+                                    text-transform: uppercase;
+                                    padding-left:15px;
+                                      }
+                    
+
+                  body, span {
+                   font-weight:100;
+                    font-size:14px;
+                               span .tyl-color-gray-dark{
+                                                        color:#595959;
+                                                         }
+
+                                 
+                      }
+                  }
+.text-justify{text-align: justify;}
+.text-xs-right{text-align:right;}
+.text-centered{text-align: center;}
+
+/* Other KGM adds for prototype */
+
+
+
+//======Colors ========//
+.color-palette-color{ 
+  width:100%;
+  min-width:100px;
+  min-height:100px;
+  height:20px;
+  font-weight:600;
+  font-family:Gotham, Helvetica, Sans-serif;
+
+  p{
+    padding: 5px 5px 5px 5px;
+    weight:bold; }
+
+}
+
+  p.white{color:white;}
+  
+  p.black{color:black;} 
+
+.tyler-background-blue-dark{background-color: #00366b;}
+.tyler-background-blue-medium{background-color: #788BA8;}
+.tyler-background-blue-light{background-color: #D1D8E2;}
+.tyler-background-green-light{background-color: #C3D69B;}
+.tyler-background-green-medium{background-color: #bbd66e;}
+.tyler-background-gray-dark{background-color: #40403a;}
+.tyler-background-gray-lesslight{background-color: #cfcfcf;}
+.tyler-background-gray-lightest{background-color: #f0f0f0;}
+.tyler-background-gray-lighter{background-color: #e6e6e6;}
+.tyler-background-orange{background-color: #f87330;}
+.tyler-background-red{background-color: #a20000;}
+.tyler-background-blue-bright{background-color: #0345A0;}
+
+
+
+
+//====Page Spacing====//
+#content{padding-left:100px;
+padding-right:100px;}
+section{padding-bottom:40px;}
+.section-header{padding-bottom:80px;}
+
+//======Forms========//
+
+.card{margin-right:20px;}
+#forms{ input{margin-bottom:20px;
+              border: .5px solid #cfcfcf;}}
+
+.button{
+  width:100px;
+  text-transform: uppercase;
+  margin-left:20px;
+float:left;
+background-color:#0345a0;
+color:white;
+text-align: center;
+content-align:center;
+box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.2s ease-in-out;
+border-radius: 1px;}
+
+  .button:hover{background-color: #788ba8;
+                border:none;}
+
+.white-button{background-color:white;
+              color:#0345a0;
+              box-shadow: none;}
+              .white-button:hover{background-color: white;
+                                  color:#788ba8;
+                                  border:none;}
+                                    .white-button:active{background-color: white;
+                                  color:#788ba8;
+                                  border:none;}
+
+//====Navbar====//
+nav#menu{overflow:scroll;}
+nav#navbar-main{height:50px;
+          .navbar-header{ clear:both;
+                          float:none;
+
+          }}
+.navbar-inverse{background-color:white;
+                border-color:white;}
+ .navbar-header span.icon-bar{background-color:black;}
+
+
+//====Headers====//
+.header{ width:100%;
+         height:50px;
+
+    .blue-header{background-color: #00366b;
+                height:100%;}
+  }
+.header-title{font-size: 18px;
+              color:white;
+              font-family: Roboto, Gotham, Helvetica, Arial;
+              float:right;
+              padding-right:20px;
+              top:10px;}
+
+//====Lines====//
+.border-bottom{
+  border-bottom:solid 1px #e8e8e8;
+}
+
+
+.browsehappy {
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
+}
+
+//====BigSlide Menu====//
+a.menu-link{ padding: 25px 5px 5px 15px;
+          font-size: 34px;
+          color:white;
+          text-decoration: none;
+        }
+a.menu-link :hover{color:white;
+             text-decoration: none;} 
+
+a.menu-link :active{color:white;
+             text-decoration: none;} 
+
+
+#menu{ background-color:white;
+      
+      ul li{
+        list-style: none;
+        padding: 15px 0px 0px 0px;
+        color:black;}
+      ul li a {color:black;}
+     ul li :hover{
+        color:black; 
+        text-decoration: none;}
+      ul li :active{
+        color:#ebebeb; 
+        text-decoration: none;}
+      ul li :visited{
+       text-decoration:none; 
+      }
+
+    }
+
+.panel {
+    position: fixed;
+    left: -15.625em; /*left or right and the width of your navigation panel*/
+    width: 15.625em; /*should match the above value*/
+}
+
+.push {
+    position: relative;
+}
+
+
+
+//=========Tweaks for Aesthetic Value =============//
+#iconography p {font-size:10px;}
+#iconography .content p{font-size:12px;}
+
+#color h4{
+
+}
+    #primary{padding-left:15px;}
+    #accent{padding-left:45px;}
+.link{
+  color:#0F0FFA;
+}
+.table{font-family: Calibri Light, Roboto, Segoe UI Light, Helvetica, Gotham, Sans-serif;
+      font-size: 12px;}
+
+#forms{padding-top:100px;}
+
+
+//===========ELEMENTS AND PATTERNS==================//
+//====Slider====//
+.slider{
+  background-color: #f0f0f0;
+  border-radius:none;
+  max-width:220px;
+  color:black;
+  li a:hover{background-color:#cfcfcf;
+            border-radius: none;
+            color:black;
+            }
+
+            li a:focus{background-color:#cfcfcf;
+    
+            }
+            .nav-pills > li > a{border-radius: 0px;
+                                color:black;
+                            
+                          
+                        
+}}
+
+
+//====pagination====//
+
+#pagination {
+
+a{color:black;}
+span.pagination-label{width:100px;
+padding-top:25px;
+float:left;}
+}
+
+
+/* End KGM adds for prototype */
+
+
+/* Space out content a bit */
+body {
+width:100%;
+min-height:2000px;
+
+}
+
+/* Everything but the jumbotron gets side spacing for mobile first views */
+.header,
+.marketing,
+.footer {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Custom page header */
+.header {
+  border-bottom: 1px solid #e5e5e5;
+
+  /* Make the masthead heading the same height as the navigation */
+  h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 40px;
+    padding-bottom: 19px;
+  }
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+
+}
+
+.container-narrow > hr {
+  margin: 30px 0;
+}
+
+/* Main marketing message and sign up button */
+.jumbotron {
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+  }
+}
+
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+  p + h4 {
+    margin-top: 28px;
+  }
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 730px;
+  }
+
+  /* Remove the padding we set earlier */
+  .header,
+  .marketing,
+  .footer {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Space out the masthead */
+  .header {
+    margin-bottom: 30px;
+  }
+
+  /* Remove the bottom border on the jumbotron for visual effect */
+  .jumbotron {
+    border-bottom: 0;
+  }
+}

@@ -1,0 +1,71 @@
+/*
+Error: File to import not found or unreadable: bootstrap-sass/assets/stylesheets/bootstrap.scss.
+       Load paths:
+         Compass::SpriteImporter
+         C:/devkit/projects/proto-dtsdesign/sass
+         C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets
+        on line 11 of C:/devkit/projects/proto-dtsdesign/sass/screen.scss
+
+6: @import "compass/reset";
+7: 
+8: $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+9: 
+10: // bower:scss
+11: @import "bootstrap-sass/assets/stylesheets/bootstrap.scss";
+12: // endbower
+13: 
+14: .browsehappy {
+15:   margin: 0.2em 0;
+16:   background: #ccc;
+
+Backtrace:
+C:/devkit/projects/proto-dtsdesign/sass/screen.scss:11
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:67:in `rescue in import'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:45:in `import'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:28:in `imported_file'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/import_node.rb:37:in `css_import?'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:311:in `visit_import'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `block in with_base'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/stack.rb:115:in `with_frame'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/stack.rb:79:in `with_base'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:158:in `visit'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `map'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/base.rb:36:in `visit'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:157:in `visit'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/visitors/perform.rb:8:in `visit'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:36:in `css_tree'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/tree/root_node.rb:20:in `render'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/engine.rb:278:in `render'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:17:in `block in render'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-import-once-1.0.5/lib/compass/import-once/engine.rb:16:in `render'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `each'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/sass-3.4.19/lib/sass/plugin/compiler.rb:293:in `watch'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/lib/compass/sass_compiler.rb:46:in `watch!'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/lib/compass/commands/watch_project.rb:41:in `perform'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/lib/compass/commands/base.rb:18:in `execute'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/lib/compass/commands/project_base.rb:19:in `execute'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/bin/compass:30:in `block in <top (required)>'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/bin/compass:44:in `call'
+C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-1.1.0.alpha.3/bin/compass:44:in `<top (required)>'
+C:/DevKit/Ruby21/bin/compass:23:in `load'
+C:/DevKit/Ruby21/bin/compass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: File to import not found or unreadable: bootstrap-sass/assets/stylesheets/bootstrap.scss.\A        Load paths:\A          Compass::SpriteImporter\A          C:/devkit/projects/proto-dtsdesign/sass\A          C:/DevKit/Ruby21/lib/ruby/gems/2.1.0/gems/compass-core-1.1.0.alpha.3/stylesheets\A         on line 11 of C:/devkit/projects/proto-dtsdesign/sass/screen.scss\A \A 6: @import \"compass/reset\";\A 7: \A 8: $icon-font-path: \"../bower_components/bootstrap-sass/assets/fonts/bootstrap/\";\A 9: \A 10: // bower:scss\A 11: @import \"bootstrap-sass/assets/stylesheets/bootstrap.scss\";\A 12: // endbower\A 13: \A 14: .browsehappy {\A 15:   margin: 0.2em 0;\A 16:   background: #ccc;"; }
